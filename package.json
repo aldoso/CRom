@@ -1,0 +1,22 @@
+{
+  "name": "crom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cordova-sw.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldoso/CRom.git"
+  },
+  "author": "A.D.S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldoso/CRom/issues"
+  },
+  "homepage": "https://github.com/aldoso/CRom#readme"
+}
