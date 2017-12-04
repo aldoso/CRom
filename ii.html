@@ -1,0 +1,776 @@
+<!-- <!DOCTYPE html> -->
+<!-- default template for cordova with html files include-->
+
+<html>
+
+<head>
+  <title>Constituția României</title>
+  <meta charset="utf-8">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+  <meta name="msapplication-tap-highlight" content="no">
+  <!-- <meta name="format-detection" content="telephone=no"> -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, shrink-to-fit=no">
+
+  <!-- jquery mobile stylesheet -->
+  <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+
+
+  <!-- visual styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<!-- STARTING THE BODY -->
+
+<body>
+
+  <!-- app -->
+  <div class="app">
+
+    <script type="text/javascript">
+    </script>
+
+    <script src="js/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+      $(function() {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+
+
+    <!-- ADD THE HEADER -->
+    <div id="header"></div>
+
+    <div class='titlu'>
+      <h4>TITLUL II</h4>
+      <h3>Drepturile, libertățile și îndatoririle fundamentale</h3>
+    </div>
+
+    <div class="container-fluid search-container">
+    <div class="container">
+        <input type="text" name="searchup"  id="searchbox" onkeyup="searchArticle()" placeholder="Caută doar în acest TITLU..." title="Type in a name">
+    </div>
+    </div>
+
+        <div class="container options">
+                <!-- <span>Search options:</span> -->
+                <!-- <input type="checkbox" name="opt[]" value="separateWordSearch" checked> separate word search -->
+                <!-- <br> -->
+                <input type="checkbox" name="opt[]" value="diacritics" checked>
+                <span>Caută fără să tastezi diacritice</span>
+                <!-- <input type="checkbox" name="opt[]" value="debug"> debug -->
+
+                <!-- <span>There are a lot more <a target="_blank" href="https://markjs.io/configurator.html">options</a>!</span> -->
+        </div>
+
+    <div class=' container content'>
+
+      <div class="alert alert-warning" role="alert">
+        CAPITOLUL I - Dispoziții comune
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 15 - Universalitatea</h6>
+        <p>
+          (1) Cetățenii beneficiază de drepturile și de libertățile consacrate prin Constituție și prin alte legi și au obligațiile prevăzute de acestea.
+        </p>
+        <p>
+          (2) Legea dispune numai pentru viitor, cu excepția legii penale sau contravenționale mai favorabile.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 16 - Egalitatea în drepturi</h6>
+        <p>
+          (1) Cetățenii sunt egali în fața legii și a autorităților publice, fără privilegii și fără discriminări.
+        </p>
+        <p>
+          (2) Nimeni nu este mai presus de lege.
+        </p>
+        <p>
+          (3) Funcțiile și demnitățile publice, civile sau militare, pot fi ocupate, în condițiile legii, de persoanele care au cetățenia română și domiciliul în țară. Statul român garantează egalitatea de șanse între femei și bărbați pentru ocuparea acestor funcții
+          și demnități.
+        </p>
+        <p>
+          (4) În condițiile aderării României la Uniunea Europeană, cetățenii Uniunii care îndeplinesc cerințele legii organice au dreptul de a alege și de a fi aleși în autoritățile administrației publice locale.
+        </p>
+      </div>
+
+
+      <div class="artbox">
+        <h6>ARTICOLUL 17 - Cetățenii români în străinătate</h6>
+        <p>
+          Cetățenii români se bucură în străinătate de protecția statului român și trebuie să-și îndeplinească obligațiile, cu excepția acelora ce nu sunt compatibile cu absența lor din țară.
+        </p>
+
+        <h6>ARTICOLUL 18 - Cetățenii străini și apatrizii</h6>
+        <p>
+          (1) Cetățenii străini și apatrizii care locuiesc în România se bucură de protecția generală a persoanelor și a averilor, garantată de Constituție și de alte legi.
+        </p>
+        <p>
+          (2) Dreptul de azil se acordă și se retrage în condițiile legii, cu respectarea tratatelor și a convențiilor internaționale la care România este parte.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 19 - Extrădarea și expulzarea</h6>
+        <p>
+          (1) Cetățeanul român nu poate fi extrădat sau expulzat din România.
+        </p>
+        <p>
+          (2) Prin derogare de la prevederile alineatului (1) , cetățenii români pot fi extrădați în baza convențiilor internaționale la care România este parte, în condițiile legii și pe bază de reciprocitate.
+        </p>
+        <p>
+          (3) Cetățenii străini și apatrizii pot fi extrădați numai în baza unei convenții internaționale sau în condiții de reciprocitate.
+        </p>
+        <p>
+          (4) Expulzarea sau extrădarea se hotărăște de justiție.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 20 -  Tratatele internaționale privind drepturile omului</h6>
+        <p>
+          (1) Dispozițiile constituționale privind drepturile și libertățile cetățenilor vor fi interpretate și aplicate în concordanță cu Declarația Universală a Drepturilor Omului, cu pactele și cu celelalte tratate la care România este parte.
+        </p>
+        <p>
+          (2) Dacă există neconcordanțe între pactele și tratatele privitoare la drepturile fundamentale ale omului, la care România este parte, și legile interne, au prioritate reglementările internaționale, cu excepția cazului în care Constituția sau legile interne
+          conțin dispoziții mai favorabile.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 21 - Accesul liber la justiție</h6>
+        <p>
+          (1) Orice persoană se poate adresa justiției pentru apărarea drepturilor, a libertăților și a intereselor sale legitime.
+        </p>
+        <p>
+          (2) Nici o lege nu poate îngrădi exercitarea acestui drept.
+        </p>
+        <p>
+          (3) Părțile au dreptul la un proces echitabil și la soluționarea cauzelor într-un termen rezonabil.
+        </p>
+        <p>
+          (4) Jurisdicțiile speciale administrative sunt facultative și gratuite.
+        </p>
+      </div>
+
+
+      <div class="alert alert-warning" role="alert">
+        CAPITOLUL II - Drepturile și libertățile fundamentale
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 22 - Dreptul la viață și la integritate fizică și psihică</h6>
+        <p>
+          (1) Dreptul la viață, precum și dreptul la integritate fizică și psihică ale persoanei sunt garantate.
+        </p>
+        <p>
+          (2) Nimeni nu poate fi supus torturii și nici unui fel de pedeapsă sau de tratament inuman ori degradant.
+        </p>
+        <p>
+          (3) Pedeapsa cu moartea este interzisă.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 23 - Libertatea individuală</h6>
+        <p>
+          (1) Libertatea individuală și siguranța persoanei sunt inviolabile.
+        </p>
+        <p>
+          (2) Percheziționarea, reținerea sau arestarea unei persoane sunt permise numai în cazurile și cu procedura prevăzute de lege.
+        </p>
+        <p>
+          (3) Reținerea nu poate depăși 24 de ore.
+        </p>
+        <p>
+          (4) Arestarea preventivă se dispune de judecător și numai în cursul procesului penal.
+        </p>
+        <p>
+          (5) În cursul urmăririi penale arestarea preventivă se poate dispune pentru cel mult 30 de zile și se poate prelungi cu câte cel mult 30 de zile, fără ca durata totală să depășească un termen rezonabil, și nu mai mult de 180 de zile.
+        </p>
+        <p>
+          (6) În faza de judecată instanța este obligată, în condițiile legii, să verifice periodic, și nu mai târziu de 60 de zile, legalitatea și temeinicia arestării preventive și să dispună, de îndată, punerea în libertate a inculpatului, dacă temeiurile care
+          au determinat arestarea preventivă au încetat sau dacă instanța constată că nu există temeiuri noi care să justifice menținerea privării de libertate.
+        </p>
+        <p>
+          (7) Încheierile instanței privind măsura arestării preventive sunt supuse căilor de atac prevăzute de lege.
+        </p>
+        <p>
+          (8) Celui reținut sau arestat i se aduc de îndată la cunoștință, în limba pe care o înțelege, motivele reținerii sau ale arestării, iar învinuirea, în cel mai scurt termen; învinuirea se aduce la cunoștință numai în prezența unui avocat, ales sau numit
+          din oficiu.
+        </p>
+        <p>
+          (9) Punerea în libertate a celui reținut sau arestat este obligatorie, dacă motivele acestor măsuri au dispărut, precum și în alte situații prevăzute de lege.
+        </p>
+        <p>
+          (10) Persoana arestată preventiv are dreptul să ceară punerea sa în libertate provizorie, sub control judiciar sau pe cauțiune.
+        </p>
+        <p>
+          (11) Până la rămânerea definitivă a hotărârii judecătorești de condamnare, persoana este considerată nevinovată.
+        </p>
+        <p>
+          (12) Nici o pedeapsă nu poate fi stabilită sau aplicată decât în condițiile și în temeiul legii.
+        </p>
+        <p>
+          (13) Sancțiunea privativă de libertate nu poate fi decât de natură penală.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 24 - Dreptul la apărare</h6>
+        <p>
+          (1) Dreptul la apărare este garantat.
+        </p>
+        <p>
+          (2) În tot cursul procesului, părțile au dreptul să fie asistate de un avocat, ales sau numit din oficiu.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 25 - Libera circulație</h6>
+        <p>
+          (1) Dreptul la liberă circulație, în țară și în străinătate, este garantat. Legea stabilește condițiile exercitării acestui drept.
+        </p>
+        <p>
+          (2) Fiecărui cetățean îi este asigurat dreptul de a-și stabili domiciliul sau reședința în orice localitate din țară, de a emigra, precum și de a reveni în țară.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 26 - Viața intimă, familială și privată</h6>
+        <p>
+          (1) Autoritățile publice respectă și ocrotesc viața intimă, familială și privată.
+        </p>
+        <p>
+          (2) Persoana fizică are dreptul să dispună de ea însăși, dacă nu încalcă drepturile și libertățile altora, ordinea publică sau bunele moravuri.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 27 - Inviolabilitatea domiciliului</h6>
+        <p>
+          (1) Domiciliul și reședința sunt inviolabile. Nimeni nu poate pătrunde sau rămâne în domiciliul ori în reședința unei persoane fără învoirea acesteia.
+        </p>
+        <p>
+          (2) De la prevederile alineatului (1) se poate deroga prin lege pentru următoarele situații:
+        </p>
+        <p>
+          a) executarea unui mandat de arestare sau a unei hotărâri judecătorești;
+        </p>
+        <p>
+          b) înlăturarea unei primejdii privind viața, integritatea fizică sau bunurile unei persoane;
+        </p>
+        <p>
+          c) apărarea securității naționale sau a ordinii publice;
+        </p>
+        <p>
+          d) prevenirea răspândirii unei epidemii.
+        </p>
+        <p>
+          (3) Percheziția se dispune de judecător și se efectuează în condițiile și în formele prevăzute de lege.
+        </p>
+        <p>
+          (4) Perchezițiile în timpul nopții sunt interzise, în afară de cazul infracțiunilor flagrante.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 28 - Secretul corespondenței</h6>
+        <p>
+          Secretul scrisorilor, al telegramelor, al altor trimiteri poștale, al convorbirilor telefonice și al celorlalte mijloace legale de comunicare este inviolabil.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 29 - Libertatea conștiinței</h6>
+        <p>
+          (1) Libertatea gândirii și a opiniilor, precum și libertatea credințelor religioase nu pot fi îngrădite sub nici o formă. Nimeni nu poate fi constrâns să adopte o opinie ori să adere la o credință religioasă, contrare convingerilor sale.
+        </p>
+        <p>
+          (2) Libertatea conștiinței este garantată; ea trebuie să se manifeste în spirit de toleranță și de respect reciproc.
+        </p>
+        <p>
+          (3) Cultele religioase sunt libere și se organizează potrivit statutelor proprii, în condițiile legii.
+        </p>
+        <p>
+          (4) În relațiile dintre culte sunt interzise orice forme, mijloace, acte sau acțiuni de învrăjbire religioasă.
+        </p>
+        <p>
+          (5) Cultele religioase sunt autonome față de stat și se bucură de sprijinul acestuia, inclusiv prin înlesnirea asistenței religioase în armată, în spitale, în penitenciare, în azile și în orfelinate.
+        </p>
+        <p>
+          (6) Părinții sau tutorii au dreptul de a asigura, potrivit propriilor convingeri, educația copiilor minori a căror răspundere le revine.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 30 - Libertatea de exprimare</h6>
+        <p>
+          (1) Libertatea de exprimare a gândurilor, a opiniilor sau a credințelor și libertatea creațiilor de orice fel, prin viu grai, prin scris, prin imagini, prin sunete sau prin alte mijloace de comunicare în public, sunt inviolabile.
+        </p>
+        <p>
+          (2) Cenzura de orice fel este interzisă.
+        </p>
+        <p>
+          (3) Libertatea presei implică și libertatea de a înființa publicații.
+        </p>
+        <p>
+          (4) Nici o publicație nu poate fi suprimată.
+        </p>
+        <p>
+          (5) Legea poate impune mijloacelor de comunicare în masă obligația de a face publică sursa finanțării.
+        </p>
+        <p>
+          (6) Libertatea de exprimare nu poate prejudicia demnitatea, onoarea, viața particulară a persoanei și nici dreptul la propria imagine.
+        </p>
+        <p>
+          (7) Sunt interzise de lege defăimarea țării și a națiunii, îndemnul la război de agresiune, la ură națională, rasială, de clasă sau religioasă, incitarea la discriminare, la separatism teritorial sau la violență publică, precum și manifestările obscene,
+          contrare bunelor moravuri.
+        </p>
+        <p>
+          (8) Răspunderea civilă pentru informația sau pentru creația adusă la cunoștință publică revine editorului sau realizatorului, autorului, organizatorului manifestării artistice, proprietarului mijlocului de multiplicare, al postului de radio sau de televiziune,
+          în condițiile legii. Delictele de presă se stabilesc prin lege.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 31 - Dreptul la informație</h6>
+        <p>
+          (1) Dreptul persoanei de a avea acces la orice informație de interes public nu poate fi îngrădit.
+        </p>
+        <p>
+          (2) Autoritățile publice, potrivit competențelor ce le revin, sunt obligate să asigure informarea corectă a cetățenilor asupra treburilor publice și asupra problemelor de interes personal.
+        </p>
+        <p>
+          (3) Dreptul la informație nu trebuie să prejudicieze măsurile de protecție a tinerilor sau securitatea națională.
+        </p>
+        <p>
+          (4) Mijloacele de informare în masă, publice și private, sunt obligate să asigure informarea corectă a opiniei publice.
+        </p>
+        <p>
+          (5) Serviciile publice de radio și de televiziune sunt autonome. Ele trebuie să garanteze grupurilor sociale și politice importante exercitarea dreptului la antenă. Organizarea acestor servicii și controlul parlamentar asupra activității lor se reglementează
+          prin lege organică.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 32 - Dreptul la învățătură</h6>
+        <p>
+          (1) Dreptul la învățătură este asigurat prin învățământul general obligatoriu, prin învățământul liceal și prin cel profesional, prin învățământul superior, precum și prin alte forme de instrucție și de perfecționare.
+        </p>
+        <p>
+          (2) Învățământul de toate gradele se desfășoară în limba română. În condițiile legii, învățământul se poate desfășura și într-o limbă de circulație internațională.
+        </p>
+        <p>
+          (3) Dreptul persoanelor aparținând minorităților naționale de a învăța limba lor maternă și dreptul de a putea fi instruite în această limbă sunt garantate; modalitățile de exercitare a acestor drepturi se stabilesc prin lege.
+        </p>
+        <p>
+          (4) Învățământul de stat este gratuit, potrivit legii. Statul acordă burse sociale de studii copiilor și tinerilor proveniți din familii defavorizate și celor instituționalizați, în condițiile legii.
+        </p>
+        <p>
+          (5) Învățământul de toate gradele se desfășoară în unități de stat, particulare și confesionale, în condițiile legii.
+        </p>
+        <p>
+          (6) Autonomia universitară este garantată.
+        </p>
+        <p>
+          (7) Statul asigură libertatea învățământului religios, potrivit cerințelor specifice fiecărui cult. În școlile de stat, învățământul religios este organizat și garantat prin lege.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 33 - Accesul la cultură</h6>
+        <p>
+          (1) Accesul la cultură este garantat, în condițiile legii.
+        </p>
+        <p>
+          (2) Libertatea persoanei de a-și dezvolta spiritualitatea și de a accede la valorile culturii naționale și universale nu poate fi îngrădită.
+        </p>
+        <p>
+          (3) Statul trebuie să asigure păstrarea identității spirituale, sprijinirea culturii naționale, stimularea artelor, protejarea și conservarea moștenirii culturale, dezvoltarea creativității contemporane, promovarea valorilor culturale și artistice ale
+          României în lume.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 34 - Dreptul la ocrotirea sănătății</h6>
+        <p>
+          (1) Dreptul la ocrotirea sănătății este garantat.
+        </p>
+        <p>
+          (2) Statul este obligat să ia măsuri pentru asigurarea igienei și a sănătății publice.
+        </p>
+        <p>
+          (3) Organizarea asistenței medicale și a sistemului de asigurări sociale pentru boală, accidente, maternitate și recuperare, controlul exercitării profesiilor medicale și a activităților paramedicale, precum și alte măsuri de protecție a sănătății fizice
+          și mentale a persoanei se stabilesc potrivit legii.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 35 - Dreptul la mediu sănătos</h6>
+        <p>
+          (1) Statul recunoaște dreptul oricărei persoane la un mediu înconjurător sănătos și echilibrat ecologic.
+        </p>
+        <p>
+          (2) Statul asigură cadrul legislativ pentru exercitarea acestui drept.
+        </p>
+        <p>
+          (3) Persoanele fizice și juridice au îndatorirea de a proteja și a ameliora mediul înconjurător.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 36 - Dreptul de vot</h6>
+        <p>
+          (1) Cetățenii au drept de vot de la vârsta de 18 ani, împliniți până în ziua alegerilor inclusiv.
+        </p>
+        <p>
+          (2) Nu au drept de vot debilii sau alienații mintal, puși sub interdicție, și nici persoanele condamnate, prin hotărâre judecătorească definitivă, la pierderea drepturilor electorale.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 37 - Dreptul de a fi ales</h6>
+        <p>
+          (1) Au dreptul de a fi aleși cetățenii cu drept de vot care îndeplinesc condițiile prevăzute în articolul 16 alineatul (3) , dacă nu le este interzisă asocierea în partide politice, potrivit articolului 40 alineatul (3).
+        </p>
+        <p>
+          (2) Candidații trebuie să fi împlinit, până în ziua alegerilor inclusiv, vârsta de cel puțin 23 de ani pentru a fi aleși în Camera Deputaților sau în organele administrației publice locale, vârsta de cel puțin 33 de ani pentru a fi aleși în Senat și vârsta
+          de cel puțin 35 de ani pentru a fi aleși în funcția de Președinte al României.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 38 - Dreptul de a fi ales în Parlamentul European</h6>
+        <p>
+          În condițiile aderării României la Uniunea Europeană, cetățenii români au dreptul de a alege și de a fi aleși în Parlamentul European.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 39 - Libertatea întrunirilor</h6>
+        <p>
+          Mitingurile, demonstrațiile, procesiunile sau orice alte întruniri sunt libere și se pot organiza și desfășura numai în mod pașnic, fără nici un fel de arme.
+        </p>
+
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 40 - Dreptul de asociere</h6>
+        <p>
+          (1) Cetățenii se pot asocia liber în partide politice, în sindicate, în patronate și în alte forme de asociere.
+        </p>
+        <p>
+          (2) Partidele sau organizațiile care, prin scopurile ori prin activitatea lor, militează împotriva pluralismului politic, a principiilor statului de drept ori a suveranității, a integrității sau a independenței României sunt neconstituționale.
+        </p>
+        <p>
+          (3) Nu pot face parte din partide politice judecătorii Curții Constituționale, avocații poporului, magistrații, membrii activi ai armatei, polițiștii și alte categorii de funcționari publici stabilite prin lege organică.
+        </p>
+        <p>
+          (4) Asociațiile cu caracter secret sunt interzise.
+        </p>
+
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 41 - Munca și protecția socială a muncii</h6>
+        <p>
+          (1) Dreptul la muncă nu poate fi îngrădit. Alegerea profesiei, a meseriei sau a ocupației, precum și a locului de muncă este liberă.
+        </p>
+        <p>
+          (2) Salariații au dreptul la măsuri de protecție socială. Acestea privesc securitatea și sănătatea salariaților, regimul de muncă al femeilor și al tinerilor, instituirea unui salariu minim brut pe țară, repausul săptămânal, concediul de odihnă plătit,
+          prestarea muncii în condiții deosebite sau speciale, formarea profesională, precum și alte situații specifice, stabilite prin lege.
+        </p>
+        <p>
+          (3) Durata normală a zilei de lucru este, în medie, de cel mult 8 ore.
+        </p>
+        <p>
+          (4) La muncă egală, femeile au salariu egal cu bărbații.
+        </p>
+        <p>
+          (5) Dreptul la negocieri colective în materie de muncă și caracterul obligatoriu al convențiilor colective sunt garantate.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 42 - Interzicerea muncii forțate</h6>
+        <p>
+          (1) Munca forțată este interzisă.
+        </p>
+        <p>
+          (2) Nu constituie muncă forțată:
+        </p>
+        <p>
+          a) activitățile pentru îndeplinirea îndatoririlor militare, precum și cele desfășurate, potrivit legii, în locul acestora, din motive religioase sau de conștiință;
+        </p>
+        <p>
+          b) munca unei persoane condamnate, prestată în condiții normale, în perioada de detenție sau de libertate condiționată;
+        </p>
+        <p>
+          c) prestațiile impuse în situația creată de calamități ori de alt pericol, precum și cele care fac parte din obligațiile civile normale stabilite de lege.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 43 - Dreptul la grevă</h6>
+        <p>
+          (1) Salariații au dreptul la grevă pentru apărarea intereselor profesionale, economice și sociale.
+        </p>
+        <p>
+          (2) Legea stabilește condițiile și limitele exercitării acestui drept, precum și garanțiile necesare asigurării serviciilor esențiale pentru societate.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 44 - Dreptul de proprietate privată</h6>
+        <p>
+          (1) Dreptul de proprietate, precum și creanțele asupra statului, sunt garantate. Conținutul și limitele acestor drepturi sunt stabilite de lege.
+        </p>
+        <p>
+          (2) Proprietatea privată este garantată și ocrotită în mod egal de lege, indiferent de titular. Cetățenii străini și apatrizii pot dobândi dreptul de proprietate privată asupra terenurilor numai în condițiile rezultate din aderarea României la Uniunea
+          Europeană și din alte tratate internaționale la care România este parte, pe bază de reciprocitate, în condițiile prevăzute prin lege organică, precum și prin moștenire legală.
+        </p>
+        <p>
+          (3) Nimeni nu poate fi expropriat decât pentru o cauză de utilitate publică, stabilită potrivit legii, cu dreaptă și prealabilă despăgubire.
+        </p>
+        <p>
+          (4) Sunt interzise naționalizarea sau orice alte măsuri de trecere silită în proprietate publică a unor bunuri pe baza apartenenței sociale, etnice, religioase, politice sau de altă natură discriminatorie a titularilor.
+        </p>
+        <p>
+          (5) Pentru lucrări de interes general, autoritatea publică poate folosi subsolul oricărei proprietăți imobiliare, cu obligația de a despăgubi proprietarul pentru daunele aduse solului, plantațiilor sau construcțiilor, precum și pentru alte daune imputabile
+          autorității.
+        </p>
+        <p>
+          (6) Despăgubirile prevăzute în alineatele (3) și (5) se stabilesc de comun acord cu proprietarul sau, în caz de divergență, prin justiție.
+        </p>
+        <p>
+          (7) Dreptul de proprietate obligă la respectarea sarcinilor privind protecția mediului și asigurarea bunei vecinătăți, precum și la respectarea celorlalte sarcini care, potrivit legii sau obiceiului, revin proprietarului.
+        </p>
+        <p>
+          (8) Averea dobândită licit nu poate fi confiscată. Caracterul licit al dobândirii se prezumă.
+        </p>
+        <p>
+          (9) Bunurile destinate, folosite sau rezultate din infracțiuni ori contravenții pot fi confiscate numai în condițiile legii.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 45 - Libertatea economică</h6>
+        <p>
+          Accesul liber al persoanei la o activitate economică, libera inițiativă și exercitarea acestora în condițiile legii sunt garantate.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 46 - Dreptul la moștenire</h6>
+        <p>
+          Dreptul la moștenire este garantat.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 47 - Nivelul de trai</h6>
+        <p>
+          (1) Statul este obligat să ia măsuri de dezvoltare economică și de protecție socială, de natură să asigure cetățenilor un nivel de trai decent.
+        </p>
+        <p>
+          (2) Cetățenii au dreptul la pensie, la concediu de maternitate plătit, la asistență medicală în unitățile sanitare de stat, la ajutor de șomaj și la alte forme de asigurări sociale publice sau private, prevăzute de lege. Cetățenii au dreptul și la măsuri
+          de asistență socială, potrivit legii.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 48 - Familia</h6>
+        <p>
+          (1) Familia se întemeiază pe căsătoria liber consimțită între soți, pe egalitatea acestora și pe dreptul și îndatorirea părinților de a asigura creșterea, educația și instruirea copiilor.
+        </p>
+        <p>
+          (2) Condițiile de încheiere, de desfacere și de nulitate a căsătoriei se stabilesc prin lege. Căsătoria religioasă poate fi celebrată numai după căsătoria civilă.
+        </p>
+        <p>
+          (3) Copiii din afara căsătoriei sunt egali în fața legii cu cei din căsătorie.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 49 - Protecția copiilor și a tinerilor</h6>
+        <p>
+          (1) Copiii și tinerii se bucură de un regim special de protecție și de asistență în realizarea drepturilor lor.
+        </p>
+        <p>
+          (2) Statul acordă alocații pentru copii și ajutoare pentru îngrijirea copilului bolnav ori cu handicap. Alte forme de protecție socială a copiilor și a tinerilor se stabilesc prin lege.
+        </p>
+        <p>
+          (3) Exploatarea minorilor, folosirea lor în activități care le-ar dăuna sănătății, moralității sau care le-ar pune în primejdie viața ori dezvoltarea normală sunt interzise.
+        </p>
+        <p>
+          (4) Minorii sub vârsta de 15 ani nu pot fi angajați ca salariați.
+        </p>
+        <p>
+          (5) Autoritățile publice au obligația să contribuie la asigurarea condițiilor pentru participarea liberă a tinerilor la viața politică, socială, economică, culturală și sportivă a țării.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 50 - Protecția persoanelor cu handicap</h6>
+        <p>
+          Persoanele cu handicap se bucură de protecție specială. Statul asigură realizarea unei politici naționale de egalitate a șanselor, de prevenire și de tratament ale handicapului, în vederea participării efective a persoanelor cu handicap în viața comunității,
+          respectând drepturile și îndatoririle ce revin părinților și tutorilor.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 51 - Dreptul de petiționare</h6>
+        <p>
+          (1) Cetățenii au dreptul să se adreseze autorităților publice prin petiții formulate numai în numele semnatarilor.
+        </p>
+        <p>
+          (2) Organizațiile legal constituite au dreptul să adreseze petiții exclusiv în numele colectivelor pe care le reprezintă.
+        </p>
+        <p>
+          (3) Exercitarea dreptului de petiționare este scutită de taxă.
+        </p>
+        <p>
+          (4) Autoritățile publice au obligația să răspundă la petiții în termenele și în condițiile stabilite potrivit legii.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 52 - Dreptul persoanei vătămate de o autoritate publică</h6>
+        <p>
+          (1) Persoana vătămată într-un drept al său ori într-un interes legitim, de o autoritate publică, printr-un act administrativ sau prin nesoluționarea în termenul legal a unei cereri, este îndreptățită să obțină recunoașterea dreptului pretins sau a interesului
+          legitim, anularea actului și repararea pagubei.
+        </p>
+        <p>
+          (2) Condițiile și limitele exercitării acestui drept se stabilesc prin lege organică.
+        </p>
+        <p>
+          (3) Statul răspunde patrimonial pentru prejudiciile cauzate prin erorile judiciare. Răspunderea statului este stabilită în condițiile legii și nu înlătură răspunderea magistraților care și-au exercitat funcția cu rea-credință sau gravă neglijență.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 53 - Restrângerea exercițiului unor drepturi sau al unor libertăți</h6>
+        <p>
+          (1) Exercițiul unor drepturi sau al unor libertăți poate fi restrâns numai prin lege și numai dacă se impune, după caz, pentru: apărarea securității naționale, a ordinii, a sănătății ori a moralei publice, a drepturilor și a libertăților cetățenilor;
+          desfășurarea instrucției penale; prevenirea consecințelor unei calamități naturale, ale unui dezastru ori ale unui sinistru deosebit de grav.
+        </p>
+        <p>
+          (2) Restrângerea poate fi dispusă numai dacă este necesară într-o societate democratică. Măsura trebuie să fie proporțională cu situația care a determinat-o, să fie aplicată în mod nediscriminatoriu și fără a aduce atingere existenței dreptului sau a
+          libertății.
+        </p>
+      </div>
+
+
+      <div class="alert alert-warning" role="alert">
+        CAPITOLUL III - Îndatoririle fundamentale
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 54 - Fidelitatea față de țară</h6>
+        <p>
+          (1) Fidelitatea față de țară este sacră.
+        </p>
+        <p>
+          (2) Cetățenii cărora le sunt încredințate funcții publice, precum și militarii, răspund de îndeplinirea cu credință a obligațiilor ce le revin și, în acest scop, vor depune jurământul cerut de lege.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 55 - Apărarea țării</h6>
+        <p>
+          (1) Cetățenii au dreptul și obligația să apere România.
+        </p>
+        <p>
+          (2) Condițiile privind îndeplinirea îndatoririlor militare se stabilesc prin lege organică.
+        </p>
+        <p>
+          (3) Cetățenii pot fi încorporați de la vârsta de 20 de ani și până la vârsta de 35 de ani, cu excepția voluntarilor, în condițiile legii organice.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 56 - Contribuții financiare</h6>
+        <p>
+          (1) Cetățenii au obligația să contribuie, prin impozite și prin taxe, la cheltuielile publice. (2) Sistemul legal de impuneri trebuie să asigure așezarea justă a sarcinilor fiscale.
+        </p>
+        <p>
+          (3) Orice alte prestații sunt interzise, în afara celor stabilite prin lege, în situații excepționale.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 57 - Exercitarea drepturilor și a libertăților</h6>
+        <p>
+          Cetățenii români, cetățenii străini și apatrizii trebuie să-și exercite drepturile și libertățile constituționale cu bună-credință, fără să încalce drepturile și libertățile celorlalți.
+        </p>
+      </div>
+
+      <div class="alert alert-warning" role="alert">
+        CAPITOLUL IV - Avocatul Poporului
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 58 - Numirea și rolul</h6>
+        <p>
+          (1) Avocatul Poporului este numit pe o durată de 5 ani pentru apărarea drepturilor și libertăților persoanelor fizice. Adjuncții Avocatului Poporului sunt specializați pe domenii de activitate.
+        </p>
+        <p>
+          (2) Avocatul Poporului și adjuncții săi nu pot îndeplini nici o altă funcție publică sau privată, cu excepția funcțiilor didactice din învățământul superior.
+        </p>
+        <p>
+          (3) Organizarea și funcționarea instituției Avocatul Poporului se stabilesc prin lege organică.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 59 - Exercitarea atribuțiilor</h6>
+        <p>
+          (1) Avocatul Poporului își exercită atribuțiile din oficiu sau la cererea persoanelor lezate în drepturile și în libertățile lor, în limitele stabilite de lege.
+        </p>
+        <p>
+          (2) Autoritățile publice sunt obligate să asigure Avocatului Poporului sprijinul necesar în exercitarea atribuțiilor sale.
+        </p>
+      </div>
+
+      <div class="artbox">
+        <h6>ARTICOLUL 60 - Raportul în fața Parlamentului</h6>
+        <p>
+          Avocatul Poporului prezintă celor două Camere ale Parlamentului rapoarte, anual sau la cererea acestora. Rapoartele pot conține recomandări privind legislația sau măsuri de altă natură, pentru ocrotirea drepturilor și a libertăților cetățenilor.
+        </p>
+      </div>
+
+
+    </div>
+    <!-- end of application container -->
+
+
+    <!-- ADD THE FOOTER -->
+    <div id="footer"></div>
+
+  </div>
+  <!-- end of app -->
+
+  <!-- Cordova -->
+  <script type="text/javascript" src="cordova.js"></script>
+
+  <!-- BOOTSTRAP and my Scripts -->
+  <!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> -->
+  <!-- <script src="js/jquery-3.2.1.min.js" crossorigin="anonymous"></script> -->
+  <!-- <script src="js/jquery-1.12.4.min.js" crossorigin="anonymous"></script> -->
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/jquery.mark.js" charset="UTF-8"></script>
+
+  <script src="js/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+
+
+</body>
+
+</html>

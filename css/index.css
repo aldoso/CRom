@@ -1,0 +1,152 @@
+/*scroll the menu-header*/
+#navbarSupportedContent {
+  overflow-y: scroll !important;
+  height: 100vh !important;
+}
+
+body {
+  background-color: #c5c5c5;
+  position: relative;
+  font-size: 1.2em;
+  /*background-color: #007bff;*/
+}
+
+h6 {
+  font-size: 1.15rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: normal;
+}
+
+div.app {
+  position: relative;
+}
+
+.container {
+ padding: 0 7px;
+}
+
+.titlu {
+    padding-top: 50px;
+    background-color: #007bff;
+    color: white;
+    padding: 60px 16px 10px 16px;
+}
+
+form .ui-field-contain {
+  padding: 0.3rem;
+  margin: 1px;
+}
+
+/*.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+  background-color: #c5c5c5;
+}*/
+
+/*.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+  border-color: lightgray;
+}*/
+
+.artbox {
+  background-color: #ebebeb;
+  padding: .5rem;
+  border-radius: .5rem;
+  border: 1px solid #9b9b9b;
+  margin: 0.8rem 0;
+  box-shadow: 0 0px 2px 2px darkgrey;
+  border-top: 2px solid #007bff;
+}
+
+.artbox h6 {
+  padding: 3px 0 9px 0;
+  font-weight: 500;
+  color: #484848;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):hover {
+  color: white;
+}
+
+nav li.nav-item {
+  padding: 10px 0;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+  height: 10px;
+  width: 100%;
+  display: block;
+  background-color: #007bff;
+}
+
+.alert {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+
+/*searchbox*/
+#searchbox {
+  background-image: url('../img/searchicon.png');
+  background-position: 10px 16px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 0px solid #ddd;
+  margin-bottom: 0px;
+  border-radius: 0.5rem;
+}
+
+.options span {
+  position: relative;
+  top:-5px;
+}
+
+#searchbox[placeholder] {
+  font-size: 19px;
+}
+
+.search-container {
+  /*background-color: white;*/
+  background-color: #007bff;
+  border-bottom: 10px solid #007bff;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+mark{
+    background: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+  width:25px;
+  height: 25px;
+  margin: 10px;
+}
+/*****************************************************************************/
+
+/* only for free version (ads) ***********************************************/
+
+/*.ad {
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  background-color: #007bff;
+  z-index: 10;
+}*/
+
+/* end only for ads **********************************************************/
