@@ -1,22 +1,25 @@
 {
-  "name": "crom",
+  "name": "todo-app-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aldoso/CRom.git"
+    "url": "git+https://github.com/aldoso/todo-app-nodejs.git"
   },
-  "author": "aldoso",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aldoso/CRom/issues"
+    "url": "https://github.com/aldoso/todo-app-nodejs/issues"
   },
-  "homepage": "https://github.com/aldoso/CRom#readme"
+  "homepage": "https://github.com/aldoso/todo-app-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "mongoose": "^4.11.14"
+  }
 }
